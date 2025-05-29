@@ -1,12 +1,14 @@
 {
+    "name": "ashilkov/sorted-linked-list-bundle",
+    "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
-            "SortedLinkedList\\": "src/SortedLinkedList"
+            "SortedLinkedList\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SortedLinkedList\\Tests\\": "tests/SortedLinkedList/"
+            "SortedLinkedList\\Tests\\": "tests/"
         }
     }
 }
