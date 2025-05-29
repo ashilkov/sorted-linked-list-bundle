@@ -3,10 +3,10 @@
 ### Overview
 The Symfony Sorted Lists Bundle provides a collection of robust, ready-to-use implementations for managing sorted collections in your Symfony projects. With this bundle, you can take advantage of four different data structures, each optimized for specific use cases:
 
-• AVL Tree – A self-balancing binary search tree offering fast lookup, insertion, and deletion operations.
-• Skip List – A probabilistic data structure that maintains sorted elements with efficient search and update performance.
-• Linked List – A classic implementation of a linked list with a sorted order guarantee.
-• Array-Based List with Binary Search – A list backed by an array that leverages binary search for quick retrieval in a sorted setup.
+- AVL Tree – A self-balancing binary search tree offering fast lookup, insertion, and deletion operations.
+- Skip List – A probabilistic data structure that maintains sorted elements with efficient search and update performance.
+- Linked List – A classic implementation of a linked list with a sorted order guarantee.
+- Array-Based List with Binary Search – A list backed by an array that leverages binary search for quick retrieval in a sorted setup.
 
 
 ### Installation
