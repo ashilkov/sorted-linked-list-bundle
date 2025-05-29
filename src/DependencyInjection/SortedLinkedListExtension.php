@@ -14,7 +14,7 @@ class SortedLinkedListExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('sorted_linked_list.default', $config['default_linked_list']);
+        $container->setParameter('sorted_linked_list.default', $config['default']);
 
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('services.yaml');
