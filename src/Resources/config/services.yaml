@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  SortedLinkedList\Model\AVLTree\AVLTree: ~
+  SortedLinkedList\Model\LinkedList\LinkedList: ~
+  SortedLinkedList\Model\SkipList\SkipList: ~
+  SortedLinkedList\Model\SortedArrayList\SortedArrayList: ~
+  SortedLinkedList\Model\SortedLinkedListContext: ~
+
+  SortedLinkedList\Model\SortedLinkedListInterface:
+    alias: '%sorted_linked_list.default%'
+    public: true

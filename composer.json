@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "SortedLinkedList\\": "src/SortedLinkedList"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SortedLinkedList\\Tests\\": "tests/SortedLinkedList/"
+        }
+    }
+}
