@@ -8,7 +8,3 @@ services:
   SortedLinkedList\Model\SkipList\SkipList: ~
   SortedLinkedList\Model\SortedArrayList\SortedArrayList: ~
   SortedLinkedList\Model\SortedLinkedListContext: ~
-
-  SortedLinkedList\Model\SortedLinkedListInterface:
-    alias: '%sorted_linked_list.default%'
-    public: true
